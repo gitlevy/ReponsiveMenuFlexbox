@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<!-- Homepage & Navbar -->
+<body id="homepage">
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="cont_items">
+        <a href="#homepage" class="items">Accueil</a>
+        <a href="#about" class="items">À propos</a>
+        <a href="#creations" class="items">Créations</a>
+        <a href="#contact" class="items">Contact</a>
+    </div>
+    <img src="/ressources/menu.svg" alt="logo menu" class="logo_menu_img">
+</div>
+
+<!-- Homepage -->
+<div class="homepage">
+    <h1>Découvrez mes créations</h1>
+    <p class="sub_title_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+</div>
+
+<!-- Section 1 text & images -->
+
+<h2 class="title_sec_1">Lorem ipsum dolor sit amet.</h2>
+
+<section id="about" class="txt_img">
+    <div class="flex_container_section_1">
+        <div class="cont_img_sec_1">
+            <img src="/ressources/imgNature.jpg" alt="Image nature">
+        </div>
+
+        <div class="cont_txt_sec_1">
+            <h2>Lorem, ipsum.</h2>
+            <p class="sub_title_sec_1">Lorem ipsum dolor sit amet.</p>
+            <p class="txt_sec_1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore vel obcaecati laborum perspiciatis? Aliquam, vel? Illo at vitae molestias vero ipsum cum deserunt ipsam porro culpa laudantium, sint voluptatibus iste beatae id cupiditate quidem consectetur sunt magnam dolorem quia perspiciatis repudiandae a! Quaerat et id labore dicta minus excepturi itaque.</p>
+            <hr>
+            <p class="txt_sec_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsam cum mollitia nisi fugiat beatae corporis fugit reprehenderit nulla non accusamus temporibus facere deleniti quia sit adipisci maiores aperiam deserunt tenetur, eius eos possimus repellat. Nulla vero cumque blanditiis hic nihil alias, quis, molestiae cupiditate laboriosam ipsa omnis quibusdam aliquam!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section portfolio -->
+
+<h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+
+<hr class="divider_port">
+
+<section id="creations" class="portfolio_img">
+    <div class="flex_img_portfolio">
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP1.jpg" alt="Image nature 1" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP2.jpg" alt="Image nature 2" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP3.jpg" alt="Image nature 3" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP4.jpg" alt="Image nature 4" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP5.jpg" alt="Image nature 5" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP6.jpg" alt="Image nature 6" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP7.jpg" alt="Image nature 7" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP8.jpg" alt="Image nature 8" />
+        </div>
+        <div class="img_port">
+            <img src="/ressources/portfolio/imgP9.jpg" alt="Image nature 9" />
+        </div>
+    </div>
+</section>
+
+<!-- Section parallax -->
+
+<div class="para_scroll">
+    <h3>Nature</h3>
+</div>
+
+<!-- Section form -->
+
+<h2 class="form_title">Rentrons en Contact !</h2>
+
+<section class="form">
+    <form id="contact">
+        <div class="row">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Ton prénom...">
+        </div>
+        <div class="row">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Ton nom...">
+        </div>
+        <div class="row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Ton message..."></textarea>
+        </div>
+        <div class="row">
+            <input type="submit" class="sub_btn" value="Submit">
+        </div>
+    </form>
+</section>
+
+<br><br><br><br>
+
+<footer>
+    <p>Tout droits réservés &#169;</p>
+</footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>
